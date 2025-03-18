@@ -13,7 +13,8 @@ const config = {
     'json:reports/cucumber-report.json',
     'html:reports/report.html',
     'summary',
-    'progress-bar'
+    'progress-bar',
+    "allure-cucmberjs/reporter"
   ],
   formatOptions: { snippetInterface: 'async-await' },
   worldParameters: getWorldParams()
